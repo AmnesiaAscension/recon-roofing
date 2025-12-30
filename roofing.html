@@ -1,1 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Roofing | Recon Roofing & Renovations</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body{font-family:'Inter',sans-serif}
+    h1,h2,h3,h4,.brand-font{font-family:'Oswald',sans-serif}
+    .glass-nav{background:rgba(15,23,42,.9);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+    @keyframes pulse-orange{0%{box-shadow:0 0 0 0 rgba(234,88,12,.4)}70%{box-shadow:0 0 0 15px rgba(234,88,12,0)}100%{box-shadow:0 0 0 0 rgba(234,88,12,0)}}
+    .btn-pulse{animation:pulse-orange 2s infinite}
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+  <!-- NAV -->
+  <nav class="glass-nav text-white fixed top-0 w-full z-50 shadow-xl border-b border-orange-500/30">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-3">
+        <div class="bg-orange-500 p-2 rounded-lg shadow-lg shadow-orange-500/20">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-slate-900"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+        </div>
+        <div class="leading-none">
+          <div class="brand-font uppercase font-bold tracking-tighter text-xl">Recon</div>
+          <div class="text-xs text-cyan-400 tracking-widest uppercase font-semibold mt-1">Roofing & Renovations</div>
+        </div>
+      </a>
+
+      <div class="hidden md:flex items-center gap-8 uppercase text-sm font-semibold tracking-wider">
+        <a href="index.html" class="text-slate-300 hover:text-white">Home</a>
+        <a href="roofing.html" class="text-white border-b-2 border-orange-500 pb-1">Roofing</a>
+        <a href="construction.html" class="text-slate-300 hover:text-white">Construction</a>
+        <a href="financing.html" class="text-slate-300 hover:text-white">Financing</a>
+        <a href="tel:713-903-9155" class="bg-orange-600 hover:bg-orange-700 text-white rounded-md transition-all flex items-center gap-2 btn-pulse px-5 py-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          713-903-9155
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="pt-28 bg-slate-900 text-white relative overflow-hidden">
+    <div class="absolute inset-0">
+      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=2000" class="w-full h-full object-cover opacity-50" alt="Roofing">
+      <div class="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-900/70 to-transparent"></div>
+    </div>
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+      <div class="max-w-2xl">
+        <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-orange-500/15 border border-orange-500/20 text-orange-200 text-xs font-bold uppercase tracking-[0.3em]">
+          Residential Roofing • La Porte, TX
+        </div>
+        <h1 class="mt-6 text-5xl md:text-7xl brand-font uppercase font-bold leading-[0.9] tracking-tight">
+          Roof Replacement & Repairs <br><span class="text-orange-500">Done Right</span>
+        </h1>
+        <p class="mt-6 text-lg md:text-xl text-slate-200 leading-relaxed">
+          Full-service residential roofing with honest guidance, clean job sites, and craftsmanship built to last.
+        </p>
+        <div class="mt-8 flex flex-col sm:flex-row gap-4">
+          <a href="tel:713-903-9155" class="bg-orange-600 hover:bg-orange-700 text-white px-8 py-4 rounded-2xl font-bold text-lg btn-pulse text-center">
+            Call 713-903-9155
+          </a>
+          <a href="financing.html" class="bg-white/10 hover:bg-white/15 text-white px-8 py-4 rounded-2xl font-bold text-lg text-center border border-white/10">
+            View Financing Options
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- TRUST / TESTIMONIAL -->
+  <section class="py-16 bg-white border-b border-slate-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="bg-slate-50 border border-slate-100 rounded-[2.5rem] p-10 md:p-14">
+        <div class="text-orange-600 font-bold uppercase tracking-[0.3em] text-xs">Customer feedback</div>
+        <p class="mt-4 text-2xl md:text-3xl font-semibold text-slate-900 leading-snug">
+          “Robb was very knowledgeable about the insurance process… his crew was punctual, professional and hardworking.”
+        </p>
+        <div class="mt-6 text-slate-600 font-semibold">— Anna Canizales, La Porte, TX</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES (from provided copy) -->
+  <section class="py-20 bg-slate-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-14">
+        <div class="text-cyan-700 font-bold uppercase tracking-[0.35em] text-xs">Our Services</div>
+        <h2 class="mt-4 text-4xl md:text-6xl brand-font uppercase font-bold tracking-tight">What We Offer</h2>
+        <div class="w-24 h-2 bg-orange-600 mx-auto mt-6 rounded-full"></div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white p-10 rounded-[2.5rem] shadow-xl border border-slate-100">
+          <div class="text-orange-600 font-bold uppercase tracking-widest text-xs">Repair</div>
+          <h3 class="mt-3 text-3xl brand-font uppercase font-bold">Fixing Leaks Fast</h3>
+          <p class="mt-4 text-slate-600 leading-relaxed">
+            Our roofing repair service addresses everything from minor leaks to major damages, ensuring your roof is restored quickly and efficiently.
+          </p>
+          <div class="mt-8 flex items-center gap-3 text-slate-800 font-semibold">
+            <span class="inline-block w-2 h-2 rounded-full bg-orange-600"></span> Prompt, reliable repairs
+          </div>
+        </div>
+
+        <div class="bg-slate-900 p-10 rounded-[2.5rem] shadow-xl border border-slate-800 text-white relative overflow-hidden">
+          <div class="absolute top-0 right-0 w-40 h-40 bg-orange-500/10 blur-3xl rounded-full"></div>
+          <div class="text-cyan-300 font-bold uppercase tracking-widest text-xs">Installation</div>
+          <h3 class="mt-3 text-3xl brand-font up
 
